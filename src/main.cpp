@@ -25,11 +25,11 @@ class $modify(DecoPauseLayer, EditorPauseLayer) {
         else {
             // Node IDs missing for some reason: fall back to our own menu
             auto winSize = CCDirector::get()->getWinSize();
-            auto menu = CCMenu::create();
-            menu->setID("auto-decorate-menu"_spr);
-            menu->addChild(btn);
-            menu->setPosition({ winSize.width / 2, 30.f });
-            this->addChild(menu);
+            auto fallbackMenu = CCMenu::create();
+            fallbackMenu->setID("auto-decorate-menu"_spr);
+            fallbackMenu->addChild(btn);
+            fallbackMenu->setPosition({ winSize.width / 2, 30.f });
+            this->addChild(fallbackMenu);
         }
 
         return true;
