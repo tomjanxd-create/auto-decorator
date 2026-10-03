@@ -1,0 +1,18 @@
+{
+	"geode": "5.10.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "tomja.auto-decorator",
+	"name": "Auto Decorator",
+	"version": "v1.0.0",
+	"developer": "tomja",
+	"description": "Automatically decorate your level in one click with 15 styles (Hell, Modern, Neon, Nature and more).",
+	"tags": ["editor", "enhancement"],
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	}
+}
